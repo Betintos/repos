@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pip-venv"
+version = "0.1.0"
+description = ""
+authors = ["Beknazar Emilzhanov <qed.beknazar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "8.0.0"
+certifi = "2024.2.2"
+charset-normalizer = "3.3.2"
+idna = "3.6"
+iniconfig = "2.0.0"
+numpy = "1.26.4"
+packaging = "23.2"
+pluggy = "1.4.0"
+pytelegrambotapi = "4.15.4"
+requests = "2.31.0"
+urllib3 = "2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
